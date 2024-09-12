@@ -162,13 +162,14 @@ body {
     padding: 3rem 1rem;
 }
 
-.signup-container button {
+.signup-button {
     padding: 0.5rem 2.5rem;
     border-radius: 0.5rem;
     color: #F9FAF8;
     font-weight: 700;
     border: 0.15rem solid #F9FAF8;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .signup-text h4 {
@@ -177,4 +178,15 @@ body {
 
 .signup-text p {
     color: #E5E7EB;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 2rem 0;
 }
