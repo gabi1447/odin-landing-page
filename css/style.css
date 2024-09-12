@@ -8,15 +8,20 @@ body {
     
 }
 
+.layout {
+    display: flex;
+}
+
 /* Header and Main */
 .container {
     width: 100%;
     background-color: #1f2937;
-    color: #F9FAF8;
+    color: #E5E7EB;
     font-family: Roboto, sans-serif;
-    font-size: 1.2rem;
+    font-size: 18px;
 }
 
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -24,12 +29,12 @@ body {
     width: 60%;
     margin: 0 auto;
     padding: 1.2rem;
-    
 }
 
 .logo {
     font-weight: 800;
-    font-size: 1.2rem;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .links {
@@ -41,4 +46,44 @@ body {
 .links li a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+/* Main */
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    padding-left: 1.2rem;
+}
+
+.title, .placeholder {
+    width: 50%;
+}
+
+.title h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.title button {
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: 0;
+    background-color: #3882F6;
+    margin-top: 0.75rem;
+    color: #F9FAF8;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(104, 104, 104);
 }
